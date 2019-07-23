@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\common\bin\cspybat" -f "C:\Users\fz\Desktop\oled_test1\settings\oled_test.Debug.general.xcl" --backend -f "C:\Users\fz\Desktop\oled_test1\settings\oled_test.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\common\bin\cspybat" -f "C:\Users\fz\Desktop\水温_OLED\Projects\zstack\Samples\裸机程序\温度传感器DS18B20\settings\ds18b20.Debug.general.xcl" --backend -f "C:\Users\fz\Desktop\水温_OLED\Projects\zstack\Samples\裸机程序\温度传感器DS18B20\settings\ds18b20.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\common\bin\cspybat" -f "C:\Users\fz\Desktop\oled_test1\settings\oled_test.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\fz\Desktop\oled_test1\settings\oled_test.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\common\bin\cspybat" -f "C:\Users\fz\Desktop\水温_OLED\Projects\zstack\Samples\裸机程序\温度传感器DS18B20\settings\ds18b20.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\fz\Desktop\水温_OLED\Projects\zstack\Samples\裸机程序\温度传感器DS18B20\settings\ds18b20.Debug.driver.xcl" 
 
 @echo off 
 :end

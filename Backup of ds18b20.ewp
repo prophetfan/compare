@@ -12,7 +12,7 @@
       <name>General</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <version>5</version>
+        <version>4</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -40,12 +40,12 @@
         <option>
           <name>Code Memory Model</name>
           <version>1</version>
-          <state>2</state>
+          <state>1</state>
         </option>
         <option>
           <name>Code Memory Model slave</name>
           <version>1</version>
-          <state>2</state>
+          <state>1</state>
         </option>
         <option>
           <name>Data Memory Model</name>
@@ -72,7 +72,7 @@
         <option>
           <name>Calling convention</name>
           <version>0</version>
-          <state>4</state>
+          <state>3</state>
         </option>
         <option>
           <name>Workseg Size</name>
@@ -94,11 +94,11 @@
         </option>
         <option>
           <name>Switch Method</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>Mask Value</name>
-          <state>0x00</state>
+          <state>0xFF</state>
         </option>
         <option>
           <name>DPS Address</name>
@@ -141,6 +141,16 @@
           <state>0</state>
         </option>
         <option>
+          <name>GRuntimeLibSelect</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
+          <name>GRuntimeLibSelectSlave</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
           <name>RTDescription</name>
           <state>Use the legacy C runtime library.</state>
         </option>
@@ -150,7 +160,7 @@
         </option>
         <option>
           <name>RTLibraryPath</name>
-          <state>$TOOLKIT_DIR$\LIB\CLIB\cl-pli-nsid-1e16x01.r51</state>
+          <state>$TOOLKIT_DIR$\LIB\CLIB\cl-pli-nlxd-1e16x01.r51</state>
         </option>
         <option>
           <name>Input variant</name>
@@ -208,7 +218,7 @@
         </option>
         <option>
           <name>CodeBankNrOfs</name>
-          <state>0x03</state>
+          <state>0x07</state>
         </option>
         <option>
           <name>CodeBankRegMask</name>
@@ -240,23 +250,13 @@
           <version>0</version>
           <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
         </option>
-        <option>
-          <name>GRuntimeLibSelect2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelectSlave2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>4</archiveVersion>
+      <archiveVersion>3</archiveVersion>
       <data>
-        <version>9</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -413,6 +413,10 @@
           <state>1</state>
         </option>
         <option>
+          <name>CCLangSelect</name>
+          <state>0</state>
+        </option>
+        <option>
           <name>CCOptSizeSpeedSlave</name>
           <state>0</state>
         </option>
@@ -444,6 +448,11 @@
         <option>
           <name>CCStdIncCheck</name>
           <state>0</state>
+        </option>
+        <option>
+          <name>CCStdIncludePath</name>
+          <state>$TOOLKIT_DIR$\INC\</state>
+          <state>$TOOLKIT_DIR$\INC\CLIB\</state>
         </option>
         <option>
           <name>CompilerMisraRules98</name>
@@ -480,33 +489,13 @@
           <version>0</version>
           <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
         </option>
-        <option>
-          <name>IccLang</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccAllowVLA</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCppDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccRelaxedFpPrecision</name>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>A8051</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>4</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -523,7 +512,7 @@
         </option>
         <option>
           <name>OutputFile</name>
-          <state></state>
+          <state>$FILE_BNAME$.r51</state>
         </option>
         <option>
           <name>ACaseSensitivity</name>
@@ -611,6 +600,10 @@
           <state>0</state>
         </option>
         <option>
+          <name>AIncludes</name>
+          <state>$TOOLKIT_DIR$\INC\</state>
+        </option>
+        <option>
           <name>ADefines</name>
           <state></state>
         </option>
@@ -650,14 +643,6 @@
           <name>AMaxErrNum</name>
           <state>100</state>
         </option>
-        <option>
-          <name>Ignore standard include paths</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>Include directories</name>
-          <state></state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -694,7 +679,7 @@
         </option>
         <option>
           <name>OutputFile</name>
-          <state>oled_test.d51</state>
+          <state>ds18b20.d51</state>
         </option>
         <option>
           <name>OutputFormat</name>
@@ -760,7 +745,7 @@
         </option>
         <option>
           <name>XclFile</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</state>
+          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc2530F256.xcl</state>
         </option>
         <option>
           <name>XclFileSlave</name>
@@ -884,19 +869,19 @@
         </option>
         <option>
           <name>AllowExtraOutput</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>GenerateExtraOutput</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>XExtraOutOverride</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>ExtraOutputFile</name>
-          <state>oled_test.hex</state>
+          <state>ds18b20.sim</state>
         </option>
         <option>
           <name>ExtraOutputFormat</name>
@@ -910,7 +895,7 @@
         </option>
         <option>
           <name>xcOverrideProgramEntryLabel</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>xcProgramEntryLabelSelect</name>
@@ -1043,7 +1028,7 @@
       <name>General</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <version>5</version>
+        <version>4</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -1172,6 +1157,16 @@
           <state>0</state>
         </option>
         <option>
+          <name>GRuntimeLibSelect</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
+          <name>GRuntimeLibSelectSlave</name>
+          <version>0</version>
+          <state>1</state>
+        </option>
+        <option>
           <name>RTDescription</name>
           <state></state>
         </option>
@@ -1271,23 +1266,13 @@
           <version>0</version>
           <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
         </option>
-        <option>
-          <name>GRuntimeLibSelect2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelectSlave2</name>
-          <version>0</version>
-          <state>1</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>4</archiveVersion>
+      <archiveVersion>3</archiveVersion>
       <data>
-        <version>9</version>
+        <version>7</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -1444,6 +1429,10 @@
           <state>1</state>
         </option>
         <option>
+          <name>CCLangSelect</name>
+          <state>0</state>
+        </option>
+        <option>
           <name>CCOptSizeSpeedSlave</name>
           <state>0</state>
         </option>
@@ -1475,6 +1464,10 @@
         <option>
           <name>CCStdIncCheck</name>
           <state>0</state>
+        </option>
+        <option>
+          <name>CCStdIncludePath</name>
+          <state>###Uninitialized###</state>
         </option>
         <option>
           <name>CompilerMisraRules98</name>
@@ -1511,33 +1504,13 @@
           <version>0</version>
           <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
         </option>
-        <option>
-          <name>IccLang</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccAllowVLA</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCppDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccRelaxedFpPrecision</name>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>A8051</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>4</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -1642,8 +1615,12 @@
           <state>0</state>
         </option>
         <option>
+          <name>AIncludes</name>
+          <state>###Uninitialized###</state>
+        </option>
+        <option>
           <name>ADefines</name>
-          <state>NDEBUG</state>
+          <state></state>
         </option>
         <option>
           <name>AWarnEnable</name>
@@ -1680,14 +1657,6 @@
         <option>
           <name>AMaxErrNum</name>
           <state>100</state>
-        </option>
-        <option>
-          <name>Ignore standard include paths</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>Include directories</name>
-          <state></state>
         </option>
       </data>
     </settings>
@@ -2065,13 +2034,16 @@
     </settings>
   </configuration>
   <file>
-    <name>$PROJ_DIR$\Codetab.h</name>
+    <name>$PROJ_DIR$\delay.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\ds18b20.c</name>
   </file>
   <file>
     <name>$PROJ_DIR$\main.c</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\Oled.h</name>
+    <name>$PROJ_DIR$\UART.c</name>
   </file>
 </project>
 

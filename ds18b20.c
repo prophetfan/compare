@@ -1,6 +1,5 @@
-#include "uart.h"
+#include"uart.h"
 #include"iocc2530.h"
-#include "delay.h"
 
 #define uint unsigned int 
 #define uchar unsigned char

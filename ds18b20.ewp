@@ -27,12 +27,12 @@
                 <option>
                     <name>Code Memory Model</name>
                     <version>1</version>
-                    <state>2</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>Code Memory Model slave</name>
                     <version>1</version>
-                    <state>2</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>Data Memory Model</name>
@@ -59,7 +59,7 @@
                 <option>
                     <name>Calling convention</name>
                     <version>0</version>
-                    <state>4</state>
+                    <state>3</state>
                 </option>
                 <option>
                     <name>Workseg Size</name>
@@ -81,11 +81,11 @@
                 </option>
                 <option>
                     <name>Switch Method</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>Mask Value</name>
-                    <state>0x00</state>
+                    <state>0xFF</state>
                 </option>
                 <option>
                     <name>DPS Address</name>
@@ -137,7 +137,7 @@
                 </option>
                 <option>
                     <name>RTLibraryPath</name>
-                    <state>$TOOLKIT_DIR$\LIB\CLIB\cl-pli-blxd-1e16x01.r51</state>
+                    <state>$TOOLKIT_DIR$\LIB\CLIB\cl-pli-nlpd-1e16x01.r51</state>
                 </option>
                 <option>
                     <name>Input variant</name>
@@ -195,7 +195,7 @@
                 </option>
                 <option>
                     <name>CodeBankNrOfs</name>
-                    <state>0x03</state>
+                    <state>0x07</state>
                 </option>
                 <option>
                     <name>CodeBankRegMask</name>
@@ -575,7 +575,7 @@
                 </option>
                 <option>
                     <name>OutputFile</name>
-                    <state></state>
+                    <state>$FILE_BNAME$.r51</state>
                 </option>
                 <option>
                     <name>ACaseSensitivity</name>
@@ -743,7 +743,7 @@
                 </option>
                 <option>
                     <name>OutputFile</name>
-                    <state>oled_test.d51</state>
+                    <state>ds18b20.d51</state>
                 </option>
                 <option>
                     <name>OutputFormat</name>
@@ -809,7 +809,7 @@
                 </option>
                 <option>
                     <name>XclFile</name>
-                    <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</state>
+                    <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc2530F256.xcl</state>
                 </option>
                 <option>
                     <name>XclFileSlave</name>
@@ -933,19 +933,19 @@
                 </option>
                 <option>
                     <name>AllowExtraOutput</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>GenerateExtraOutput</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>XExtraOutOverride</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>ExtraOutputFile</name>
-                    <state>oled_test.hex</state>
+                    <state>ds18b20.sim</state>
                 </option>
                 <option>
                     <name>ExtraOutputFormat</name>
@@ -959,7 +959,7 @@
                 </option>
                 <option>
                     <name>xcOverrideProgramEntryLabel</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>xcProgramEntryLabelSelect</name>
@@ -1346,7 +1346,7 @@
                 <option>
                     <name>GRuntimeLibSelectSlave2</name>
                     <version>0</version>
-                    <state>1</state>
+                    <state>3</state>
                 </option>
                 <option>
                     <name>Extended stack address</name>
@@ -1390,7 +1390,7 @@
                 </option>
                 <option>
                     <name>OGChipConfigPath</name>
-                    <state>D:\IAR10\8051\bin\..\config\devices\_generic\8052.i51</state>
+                    <state>C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\8051\bin\..\config\devices\_generic\8052.i51</state>
                 </option>
             </data>
         </settings>
@@ -1771,7 +1771,7 @@
                 </option>
                 <option>
                     <name>ADefines</name>
-                    <state>NDEBUG</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnEnable</name>

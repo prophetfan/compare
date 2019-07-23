@@ -1,4 +1,4 @@
-"C:\Users\fz\Desktop\oled_test1\main.c"
+"C:\Users\fz\Desktop\水温_OLED\Projects\zstack\Samples\裸机程序\温度传感器DS18B20\main.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
@@ -273,7 +273,7 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\8051\inc\clib
 -D__MULTIPLE_INHERITANCE__=0
 -D_CLIB_FP_INF_NAN=1
 -D_DIFUNCT_MEMORY=__code
--D__CALLING_CONVENTION__=4
+-D__CALLING_CONVENTION__=3
 -D__CC_DO__=0
 -D__CC_ER__=5
 -D__CC_IO__=1
@@ -285,7 +285,7 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\8051\inc\clib
 -D__CM_FAR__=3
 -D__CM_NEAR__=1
 -D__CM_TINY__=0
--D__CODE_MODEL__=2
+-D__CODE_MODEL__=1
 -D__CONSTANT_LOCATION__=0
 -D__CORE_EXTENDED1__=2
 -D__CORE_EXTENDED2__=3

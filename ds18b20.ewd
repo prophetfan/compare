@@ -36,7 +36,7 @@
                 </option>
                 <option>
                     <name>MemOverride</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>OCProcessor</name>
@@ -116,7 +116,7 @@
                 </option>
                 <option>
                     <name>DdfFile master</name>
-                    <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\ioCC2530F256.ddf</state>
+                    <state>$TOOLKIT_DIR$\config\devices\_generic\io8051.ddf</state>
                 </option>
                 <option>
                     <name>OCImagesOffset1</name>
@@ -702,7 +702,7 @@
                 </option>
                 <option>
                     <name>SimPspConfigFile</name>
-                    <state>$TOOLKIT_DIR$\config\test.psp.config</state>
+                    <state>###Uninitialized###</state>
                 </option>
             </data>
         </settings>
@@ -1330,7 +1330,7 @@
                 </option>
                 <option>
                     <name>Debug Interface</name>
-                    <state>0</state>
+                    <state>245</state>
                 </option>
             </data>
         </settings>

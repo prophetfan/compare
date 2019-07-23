@@ -1,13 +1,5 @@
 <?xml version="1.0"?>
 <settings>
-    <InterruptLog>
-        <LogEnabled>0</LogEnabled>
-        <SumEnabled>0</SumEnabled>
-        <GraphEnabled>0</GraphEnabled>
-        <ShowTimeLog>1</ShowTimeLog>
-        <ShowTimeSum>1</ShowTimeSum>
-        <SumSortOrder>0</SumSortOrder>
-    </InterruptLog>
     <Interrupts>
         <Enabled>1</Enabled>
     </Interrupts>
@@ -24,7 +16,7 @@
         <ShowSource>1</ShowSource>
     </TraceHelper>
     <DebugChecksum>
-        <Checksum>2487048268</Checksum>
+        <Checksum>4017693683</Checksum>
     </DebugChecksum>
     <DisAssemblyWindow>
         <NumStates>_ 1</NumStates>
@@ -36,6 +28,9 @@
     <CodeCoverage>
         <Enabled>_ 0</Enabled>
     </CodeCoverage>
+    <Profiling>
+        <Enabled>0</Enabled>
+    </Profiling>
     <StackPlugin>
         <Enabled>1</Enabled>
         <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
@@ -66,9 +61,6 @@
     <CallStack>
         <ShowArgs>0</ShowArgs>
     </CallStack>
-    <Disassembly>
-        <MixedMode>1</MixedMode>
-    </Disassembly>
     <LogFile>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -79,7 +71,7 @@
         <LogFile>_ ""</LogFile>
     </TermIOLog>
     <Breakpoints>
-        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\main.c}.25.3" 1 0 0 0 "" 0 ""</Bp0>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\main.c}.55.1" 0 0 0 0 "" 0 ""</Bp0>
         <Count>1</Count>
     </Breakpoints>
     <ChipconEmu>
@@ -87,7 +79,9 @@
         <LeaveTargetRunning>1</LeaveTargetRunning>
     </ChipconEmu>
     <Aliases>
-        <Count>0</Count>
-        <SuppressDialog>0</SuppressDialog>
+        <A0>_ "F:\Texas Instruments-sensor\ZStack-CC2530-2.3.0-1.4.0\Projects\zstack\Samples\common\ds18b20\main.c" "F:\zigbee第三版例程\3、传感器实验\1、温度传感器DS18B20\Projects\zstack\Samples\裸机程序\温度传感器DS18B20\main.c"</A0>
+        <A1>_ "H:\Program\zigbee\ds18b20\UART.c" "D:\Documents and Settings\Administrator\桌面\ds18b20\UART.c"</A1>
+        <Count>2</Count>
+        <SuppressDialog>1</SuppressDialog>
     </Aliases>
 </settings>

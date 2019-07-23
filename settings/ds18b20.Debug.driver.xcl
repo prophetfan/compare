@@ -4,7 +4,7 @@
 
 "--proc_code_model" 
 
-"banked" 
+"near" 
 
 "--proc_nr_virtual_regs" 
 
@@ -18,29 +18,13 @@
 
 "1" 
 
-"--proc_codebank_reg" 
-
-"0x9F" 
-
-"--proc_codebank_start" 
-
-"0x8000" 
-
-"--proc_codebank_end" 
-
-"0xFFFF" 
-
-"--proc_codebank_mask" 
-
-"0xFF" 
-
 "--proc_data_model" 
 
 "large" 
 
 "-p" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\8051\config\devices\Texas Instruments\ioCC2530F256.ddf" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\8051\config\devices\_generic\io8051.ddf" 
 
 "--proc_exclude_exit_breakpoint" 
 
